@@ -1,0 +1,8 @@
+{
+  "extends": "@synapse/common/tsconfig.json",
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.(test)|(spec).*"],
+  "compilerOptions": {
+    "outDir": "dist"
+  }
+}
