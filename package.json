@@ -1,0 +1,7 @@
+{
+  "name": "synapse",
+  "license": "ISC",
+  "workspaces": [
+    "beneficiary","common"
+  ]
+}
