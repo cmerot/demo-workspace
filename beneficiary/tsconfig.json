@@ -1,8 +1,8 @@
 {
-  "extends": "@synapse/common/tsconfig.json",
-  "include": ["src/**/*"],
-  "exclude": ["src/**/*.(test)|(spec).*"],
+  "extends": "../tsconfig.json",
   "compilerOptions": {
     "outDir": "dist"
-  }
+  },
+  "include": ["src/**/*"],
+  "references": [{ "path": "../common" }] // Required for each package from the same repo
 }

@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": "tsc --build",
-    "build:watch": "tsc --watch"
+    "build:watch": "tsc --build --watch"
   },
   "dependencies": {
     "@synapse/common": "^1.0.0"

@@ -1,5 +1,6 @@
 {
   "name": "synapse",
+  "private": true,
   "license": "ISC",
   "workspaces": [
     "beneficiary",
